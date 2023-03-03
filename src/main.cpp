@@ -26,7 +26,6 @@ bool array[8][3] = {
 
 void setup() {
   Serial.begin(9600);
-	
 	// WiFi_SSID and WIFI_PASS should be stored in the env.h
   WiFi.begin(WIFI_SSID, WIFI_PASS);
 
@@ -92,7 +91,7 @@ void loop() {
       Serial.print("Error code: ");
       Serial.println(httpResponseCode);
     }
-     delay(2000);
+     delay(200);
    }
    
     // Free resources
