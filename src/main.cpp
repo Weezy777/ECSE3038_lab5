@@ -2,7 +2,7 @@
 #include <Wifi.h>
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
-#include "env.h" // remember to add this file to the .gitignore
+#include "env.h" 
 
 const int led_Pin1 = 2;
 const int led_Pin2 = 15;
