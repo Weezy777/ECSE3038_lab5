@@ -10,7 +10,7 @@ const int led_Pin3 = 4;
 
 
 //Your Domain/IP Address name with URL route
-const char * endpoint = "https://ecse-three-led-api-v2.onrender.com/api/state";
+
 
 bool array[8][3] = {
   {false,false,false},
