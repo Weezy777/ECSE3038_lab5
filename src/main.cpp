@@ -8,10 +8,6 @@ const int led_Pin1 = 2;
 const int led_Pin2 = 15;
 const int led_Pin3 = 4;
 
-
-//Your Domain/IP Address name with URL route
-
-
 bool array[8][3] = {
   {false,false,false},
   {false,false,true},
@@ -91,7 +87,7 @@ void loop() {
       Serial.print("Error code: ");
       Serial.println(httpResponseCode);
     }
-     delay(200);
+     delay(2000);
    }
    
     // Free resources
